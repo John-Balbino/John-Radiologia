@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  body{
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+  }
+  header{
+    position: fixed;
+    margin-bottom: 10%;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+ 
+
+  span{
+    font-size: 16px;
+  }
+  p{
+    
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+  
+}
