@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://john-balbino.github.io/John-Radiologia",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -31,6 +32,5 @@
     "vite": "^8.0.10"
   },
   
-    "homepage": "https://john-balbino.github.io/John-Radiologia"
     
 }
