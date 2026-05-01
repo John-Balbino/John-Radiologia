@@ -1,9 +1,9 @@
 export function Contato(){
     return(
-        <section className="flex flex-col gap-5 p-5" id="Contato">
+        <section className="flex flex-col items-center justify-center gap-5 p-5" id="Contato">
             <div className="flex flex-col text-center ">
                 <h2 className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent
-                lg:text-4xl">Entre em Contato</h2>
+                text-[28px] lg:text-4xl">Entre em Contato</h2>
                 <p>Mande sua sugestão,dúvidas ou ideias de parceria...</p>
             </div>
             
@@ -14,7 +14,7 @@ export function Contato(){
                     <i className="fa-brands fa-linkedin text-blue-500 hover:-translate-y-1  transition duration-700 cursor-pointer" ><a href="" target="_blank" rel="noopener noreferrer"></a></i>
                     <i></i>
                 </div>
-                <form action="" className="flex flex-col gap-2 p-2 lg:w-1/2 mx-auto">
+                <form action="" className="flex flex-col md:w-100 w-80 mx-auto justify-center gap-2 p-2  ">
                     <input type="text" placeholder="Nome" className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-200 "/>
                     <input type="email" placeholder="Email" className="border-2 border-blue-500 rounded-2xl p-2 bg-gray-200"/>
                     <input type="text" placeholder="Assunto " className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-200" />

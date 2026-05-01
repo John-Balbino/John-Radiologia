@@ -55,22 +55,22 @@ export function Slides() {
       
       {slides.map((item) => (
         <SwiperSlide key={item.id} id="effect">
-          <div id="Home"className="slide flex justify-center align-center relative mt-30 mx-auto w-100 h-50 md:w-150 md:h-80 lg:w-300 lg:h-150  ">
+          <div id="Home"className="slide flex justify-center align-center relative mt-30 mx-auto w-full h-50 md:w-full md:h-100 lg:w-300 lg:h-150  ">
             <img
               src={item.image}
               alt="Slider"
-              className="slide-item w-80 h-full md:w-200 lg:w-300 object-cover rounded-3xl   "
+              className="slide-item w-full h-full md:w-200 lg:w-300 object-cover rounded-3xl   "
               style={item.style}
             />
 
             <div
-              className="slide-content text-[8px]  lg:text-[18px] absolute p-2.5 bottom-1 left-12  text-white z-1 
-            text-shadow-2xs flex flex-col  gap-2 md:gap-5 md:bottom-5 md:left-5  lg:left-10 lg:bottom-20 "
+              className="slide-content text-[8px] md:text-[14px]  lg:text-[18px] absolute p-2.5 bottom-[10%] left-[20%] transform translate-x-[-50%]   text-white z-1 
+            text-shadow-2xs flex flex-col  gap-2 md:gap-5  "
             >
-              <h2 className=" text-[18px]  lg:text-3xl bg-linear-to-r from-amber-950 via-amber-500 to-amber-200 bg-clip-text text-transparent">
+              <h2 className=" text-[18px]  lg:text-3xl bg-linear-to-r from-amber-700 via-amber-500 to-amber-200 bg-clip-text text-transparent">
                 {item.title}
               </h2>
-              <p className="lg:w-70 md:w-40 w-25  p-2 rounded-3xl  bg-white text-black  text-left">
+              <p className="lg:w-70 md:w-40 w-25  p-2 rounded-[14px]  bg-white text-black  text-left">
                 {item.description}
               </p>
               <a

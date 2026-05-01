@@ -1,6 +1,6 @@
 export function Navbar(){
     return(
-        <header className=" fixed top=0 w-full  text-white flex flex-col md:flex-row items-center justify-between z-50 p-5 ">
+        <header className=" fixed  w-full text-white flex flex-col md:flex-row items-center justify-between z-50 p-5 bg-linear-to-b from-slate-700 to-slate-400">  
             <div className="flex">
                 <img src="" alt="" /> 
                 <h1 className="text-2xl md:text-4xl text-black">Nome da Pagina</h1>
