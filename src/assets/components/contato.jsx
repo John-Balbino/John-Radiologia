@@ -9,9 +9,9 @@ export function Contato(){
             
             <div className="container lg:flex flex flex-col   justify-center">
                 <div className="flex gap-5 text-2xl md:text-4xl lg:text-5xl justify-center">
-                    <i className="fa-brands fa-instagram text-pink-600 hover:-translate-y-1 transition duration-700 cursor-pointer"  ><a href="" target="_blank" rel="noopener noreferrer"></a></i>
-                    <i className="fa-brands fa-whatsapp text-green-500 hover:-translate-y-1 transition duration-700 cursor-pointer" ><a href="" target="_blank" rel="noopener noreferrer"></a></i>
-                    <i className="fa-brands fa-linkedin text-blue-500 hover:-translate-y-1  transition duration-700 cursor-pointer" ><a href="" target="_blank" rel="noopener noreferrer"></a></i>
+                    <a href="https://www.instagram.com/jonathan_balbino/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram text-pink-600 hover:-translate-y-1 transition duration-700 cursor-pointer"  ></i></a>
+                    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp text-green-500 hover:-translate-y-1 transition duration-700 cursor-pointer" ></i></a>
+                    <a href="https://www.linkedin.com/in/jonathan-rodrigues-balbino-da-silva-042a21231" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin text-blue-500 hover:-translate-y-1  transition duration-700 cursor-pointer" ></i></a>
                     <i></i>
                 </div>
                 <form action="" className="flex flex-col md:w-100 w-80 mx-auto justify-center gap-2 p-2  ">
