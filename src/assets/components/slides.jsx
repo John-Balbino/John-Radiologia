@@ -94,7 +94,7 @@ export function Slides() {
 
             <div
               className="slide-content text-[8px] md:text-[14px]  lg:text-[18px] 
-              absolute p-2.5 bottom-[10%] left-[30%] transform translate-x-[-50%]   text-white z-1 
+              absolute p-2.5 bottom-[20%] left-[30%] transform translate-x-[-50%]   text-white z-1 
             text-shadow-2xs flex flex-col  gap-2 md:gap-5  "
             >
               <h2 className=" text-[18px]  lg:text-3xl bg-linear-to-r from-amber-700 via-amber-500 to-amber-200 bg-clip-text text-transparent">
