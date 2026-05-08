@@ -1,9 +1,11 @@
 export function Navbar(){
     return(
-        <header className=" fixed  w-full text-white flex flex-col md:flex-row items-center justify-between z-50 p-5 bg-linear-to-b from-slate-700 to-slate-400">  
-            <div className="flex">
+        <header className=" fixed w-full text-white flex flex-col md:flex-row 
+        items-center justify-between z-50 p-5 bg-black/50 backdrop-blur-sm ">  
+            <div className="flex flex-col text-center">
                 <img src="" alt="" /> 
-                <h1 className="text-2xl md:text-4xl text-black">Nome da Pagina</h1>
+                <h1 className="text-2xl md:text-4xl text-black">John Balbino</h1>
+                <span className="font-extralight font-[Roboto] uppercase text-[12px]">Estudos Radiologicos</span>
             </div>
             <nav>
                 <ul className="flex gap-2">
