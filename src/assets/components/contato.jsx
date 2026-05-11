@@ -15,10 +15,10 @@ export function Contato(){
                     <i></i>
                 </div>
                 <form action="" className="flex flex-col md:w-100 w-80 mx-auto justify-center gap-2 p-2  ">
-                    <input type="text" placeholder="Nome" className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-200 "/>
-                    <input type="email" placeholder="Email" className="border-2 border-blue-500 rounded-2xl p-2 bg-gray-200"/>
-                    <input type="text" placeholder="Assunto " className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-200" />
-                    <textarea name="" id="" cols="30" rows="5" placeholder="Mensagem" className="border-2 border-blue-500 rounded-2xl p-2 bg-gray-200"></textarea>
+                    <input type="text" placeholder="Nome" className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-500 "/>
+                    <input type="email" placeholder="Email" className="border-2 border-blue-500 rounded-2xl p-2 bg-gray-500"/>
+                    <input type="text" placeholder="Assunto " className="border-2 border-blue-500 rounded-2xl p-2  bg-gray-500" />
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Mensagem" className="border-2 border-blue-500 rounded-2xl p-2 bg-gray-500"></textarea>
                     <button type="submit" className="bg-linear-to-t from-blue-600 via-blue-500 to-blue-400 text-white rounded-2xl hover:translate-y-1
                     transition duration-600 ">Enviar</button>
                 </form>

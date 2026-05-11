@@ -1,10 +1,10 @@
 export function Navbar(){
     return(
         <header className=" fixed w-full text-white flex flex-col md:flex-row 
-        items-center justify-between z-50 p-5 bg-black/50 backdrop-blur-sm ">  
+        items-center justify-between z-50 p-5 bg-white/20 backdrop-blur-sm ">  
             <div className="flex flex-col text-center">
                 <img src="" alt="" /> 
-                <h1 className="text-2xl md:text-4xl text-black">John Balbino</h1>
+                <h1 className="text-2xl md:text-4xl bg-linear-to-r from-blue-200 via-blue-400 to-blue-500 bg-clip-text text-transparent">John Balbino</h1>
                 <span className="font-extralight font-[Roboto] uppercase text-[12px]">Estudos Radiologicos</span>
             </div>
             <nav>
