@@ -1,5 +1,5 @@
 import livrocc from "../img/livro-c.png";
-import livrotc from "../img/livro-tc.png";
+import livrotc from "../img/livrotc.jpg";
 export function Produtos() {
   //todo componente começa com letra maiuscula
   return (
@@ -17,7 +17,7 @@ export function Produtos() {
         </div>
         <div className="box-card relative flex flex-col gap-2">
           <img src={livrotc} alt="" className=" w-30 h-30 md:w-70 md:h-80 border-2 border-amber-500 hover:shadow-2xl hover:shadow-amber-700 transition duration-600 bg-blue-500 rounded-2xl"/>
-          <button className="bg-amber-500 rounded-2xl  hover:bg-white hover:transform hover:translate-y-1 transition duration-500"><a href="">Adquirir</a></button>
+          <button className="bg-amber-500 rounded-2xl  hover:bg-white hover:transform hover:translate-y-1 transition duration-500"><a href="https://chk.eduzz.com/39VK8EKKWR" target="_blank" rel="noopener noreferrer">Adquirir</a></button>
         </div>
        
         
