@@ -71,14 +71,14 @@ export function Contato() {
         <form
           onSubmit={handleSubmit(onSubmit)}
           action=""
-          className="flex flex-col md:w-100 w-80 mx-auto justify-center gap-2 p-2  "
+          className="flex flex-col md:w-100 w-80 mx-auto justify-center gap-2 p-2 "
         >
           <label htmlFor="" className="">
             <input
               {...register("name", { required: true })}
               type="text"
               placeholder="Nome"
-              className="w-full border-2 border-blue-500 rounded-2xl p-2  bg-gray-500 "
+              className="w-full border-2 border-blue-500 rounded-2xl p-2  bg-gray-800 "
             />
             {errors.name && (
               <span className="text-red-500 font-['Roboto'] text-[12px] uppercase ">
@@ -92,7 +92,7 @@ export function Contato() {
               {...register("email", { required: true })}
               type="text"
               placeholder="Email"
-              className="w-full border-2 border-blue-500 rounded-2xl p-2 bg-gray-500"
+              className="w-full border-2 border-blue-500 rounded-2xl p-2 bg-gray-800"
             />
             {errors.email && (
               <span className="text-red-500 font-['Roboto'] text-[12px] uppercase ">
@@ -106,7 +106,7 @@ export function Contato() {
               {...register("assunto", { required: true })}
               type="text"
               placeholder="Assunto "
-              className="w-full border-2 border-blue-500 rounded-2xl p-2  bg-gray-500"
+              className="w-full border-2 border-blue-500 rounded-2xl p-2  bg-gray-800"
             />
             {errors.assunto && (
               <span className="text-red-500 font-['Roboto'] text-[12px] uppercase ">
@@ -122,7 +122,7 @@ export function Contato() {
               cols="30"
               rows="5"
               placeholder="Mensagem"
-              className="w-full border-2 border-blue-500 rounded-2xl p-2 bg-gray-500"
+              className="w-full border-2 border-blue-500 rounded-2xl p-2 bg-gray-800"
             ></textarea>
             {errors.text && (
               <span className="text-red-500 font-['Roboto'] text-[12px] uppercase ">
