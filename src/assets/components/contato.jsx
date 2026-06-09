@@ -59,7 +59,7 @@ export function Contato() {
             <i className="fa-brands fa-whatsapp text-green-500 hover:-translate-y-1 transition duration-700 cursor-pointer"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/jonathan-rodrigues-balbino-da-silva-042a21231"
+            href="https://www.linkedin.com/in/jonathan-balbino-da-silva?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
           >

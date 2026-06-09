@@ -9,6 +9,7 @@ import {
 import slide1 from "../img/slide1.png";
 import slide2 from "../img/slide2.png";
 import slide3 from "../img/slide3.png";
+import slide4 from "../img/slide4.jpg";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
@@ -24,7 +25,7 @@ export function Slides() {
       title: "John Balbino",
       description: " Olá meu nome é John, seja bem vindo(a)! ",
       link: "",
-      buttonText: "Saiba Mais",
+      buttonText: "",
       style: { border: "10px solid rgb(0, 132, 255)" },
     },
     {
@@ -46,6 +47,17 @@ export function Slides() {
       description:
         "Manual do Arco cirurgico,um guia para você não travar no seu plantão!",
       link: "https://chk.eduzz.com/Z0B13POR9A",
+      buttonText: "Saiba Mais",
+      style: { border: "10px solid rgb(115, 0, 255)" },
+    },
+    {
+      id: "4",
+      image: slide4,
+
+      title: "Arco Cirurgico",
+      description:
+        "Cios Alpha, aprenda sobre suas funções!",
+      link: "https://chk.eduzz.com/Q9N2PG3Z01",
       buttonText: "Saiba Mais",
       style: { border: "10px solid rgb(115, 0, 255)" },
     },
@@ -93,7 +105,7 @@ export function Slides() {
             />
 
             <div
-              className="slide-content text-[8px] md:text-[14px]  lg:text-[18px] 
+              className="slide-content text-[10px] md:text-[14px]  lg:text-[18px] 
               absolute p-2.5 bottom-[20%] left-[30%] transform translate-x-[-50%]   text-white z-1 
             text-shadow-2xs flex flex-col  gap-2 md:gap-5  "
             >

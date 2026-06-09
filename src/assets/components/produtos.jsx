@@ -11,7 +11,7 @@ export function Produtos() {
         </h2>
         <span className="tracking-wider  text-[12px] md:text-3xl">E-books de Radiologia que você encontra aqui ! </span>
       </div>
-      <div className="b0x-img bg-gray-500/70 w-full  h-60 md:h-120  flex   items-center justify-center gap-10">
+      <div className="b0x-img bg-gray-500/70 w-full  h-60 md:h-120  flex p-2  items-center justify-center gap-10 " >
         <div className="box-card relative flex flex-col gap-2">
           <img src={livrocc} alt="" className=" w-30 h-30 md:w-70 md:h-80 border-2 border-amber-500 hover:shadow-2xl hover:shadow-amber-700 transition duration-600 bg-blue-500 rounded-2xl"/>
           <button className="bg-amber-500 rounded-2xl  hover:bg-white hover:transform hover:translate-y-1 transition duration-500"><a href="https://chk.eduzz.com/Z0B13POR9A" target="_blank" rel="noopener noreferrer">Adquirir</a></button>
